@@ -1,10 +1,9 @@
+"""intro print to terminal"""
+
 import time
 
-print('')
-print('')
-print('brought to you by')
-print('')
-print(r"""    
+print("\n\nbrought to you by\n")
+print(r"""
       __                  ___       __       __      
     /'__`\               /\_ \    /'__`\  __/\ \__   
    /\_\L\ \  __  _  _____\//\ \  /\ \/\ \/\_\ \ ,_\  
@@ -15,6 +14,5 @@ print(r"""
                       \ \_\                          
                        \/_/                          
 """)
-print('')
-print('')
+print("\n\n")
 time.sleep(2)
